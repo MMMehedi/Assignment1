@@ -3,27 +3,81 @@ body{
     font-family: 'Poppins', sans-serif;
 }
 section{
-    height: 500px;
-    padding-bottom: 150px;
+    padding-top: 80px;
+    height: 400px;
+    padding-bottom: 20px;
 }
-.top-banner{
-    background-image: url("images/top-banner.png");
+.top-banner{  
     background-repeat: no-repeat;
 }
-.half-width{
-    width:40%;
+.first{   
+    width:30%;
     float: left;
-    margin-left: 5%;
+    margin-left: 7.2%;
     padding-left: 2%;
+   
+}
+.first img{
+    width: 100%;    
+}
+.second{   
+    width:30%;
+    float: left;
+    margin-left: 7.2%;
+    padding-left: 2%;
+   
+}
+.second img{
+    width: 100%;    
+}
+.third{   
+    width:30%;
+    float: left;
+    margin-left: 7.2%;
+    padding-left: 2%;
+   
+}
+.third img{
+    width: 80%;    
+}
+.four{   
+    width:30%;
+    float: left;
+    margin-left: 7.2%;
+    padding-left: 2%;
+   
+}
+.four img{
+    margin-left: 80px;
+    width: 40%;    
+}
+.five{   
+    width:30%;
+    float: left;
+    margin-left: 7.2%;
+    padding-left: 2%;
+   
+}
+.five img{
+    width: 100%;    
 }
 h1{
-    font-size: 50px;
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, lightsalmon, tomato);
+    border-image-slice: 1;
+    font-size: 40px;
 }
 h1 span{
     color: orange;
 }
-.half-width img{
-    width: 100%;
+h2 span{
+    color: rgb(215, 94, 245);
+}
+h3{
+    font-size: 40px;
+}
+h3 span{
+    color: orange;
 }
 .anchor-button{
     text-decoration: none;
@@ -36,18 +90,63 @@ h1 span{
 p{
     color: dimgray;
 }
+.detail{
+    text-align: center;
+}
+
+.detail1{
+    width:24%;
+    float: left;
+    margin-left: 7.2%;
+    padding-left: 2%;
+    background-color: rgb(224, 202, 230);
+    border-radius: 10px;
+}
+.detail1 img{
+    float: left;   
+    width: 50%;
+}
+.detail2{
+    width:24%;
+    float: left;
+    margin-left: 5%; 
+    padding-left: 2%;  
+    background-color: rgb(209, 220, 224);
+    border-radius: 10px;
+}
+.detail2 img{
+    float: left;   
+    width: 50%;
+}
+.detail3{
+    width:24%;
+    float: left;
+    margin-left: 5%; 
+    padding-left: 2%;   
+    background-color: rgba(245, 194, 100, 0.884);
+    border-radius: 10px;
+}
+.detail3 img{
+    float: left;   
+    width: 50%;
+}
 .dream-area{
+    margin-left: 20px ;
     background-image: url("images/dream-bg.png");
     background-repeat: no-repeat;
-    background-position: right;
+    background-position: left;
+}
+h3{
+    font-size: 20px;
 }
 h2{
     font-size: 40px;
 }
 .experience-area{
+    margin-right: 20px ;
     background-image: url("images/exp-bg.png");
     background-repeat: no-repeat;
-    background-position: left;
+    background-position: right;
 }
 .experience-area h3{
     color: orange;
@@ -68,5 +167,14 @@ h2{
     border-image-slice: 1;
 }
 footer p{
+    background-color: black;
+    padding-top: 60px;
     text-align: center;
+    height: 100px;
+}
+bold{
+    font-size: 30px;
+}
+bold span{
+    color: rgb(215, 94, 245); 
 }
